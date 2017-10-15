@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.pacoarce.splashscreen" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>PG-SplashScreen</name>
+    <description>
+		SplashScreen
+	</description>
+    <author email="fj_arce@yahoo.com.mx" href="http://pacoarce.com">
+		Francisco Javier Arce Anguiano
+	</author>
+    <gap:plataform name="android" />
+    <content src="index.html" />
+    <access origin="*" />
+    <icon src="icono.png" />
+    <splash src="splash.png" />
+    <preference name="orientation" value="portrait" />
+    <preference name="fullscreen" value="false" />
+    <preference name="android-installLocation" value="auto" />
+    <preference name="SplashScreenDelay" value="10000" />
+</widget>

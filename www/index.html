@@ -1,14 +1,14 @@
 <!doctype html>
 <html><head>
 <meta charset="utf-8">
-<title>SplashScreen</title>
+<title>SplashScreen Test</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <link rel="stylesheet" href="jq/css/themes/default/jquery.mobile-1.4.5.min.css"/>
 <script src="jq/js/jquery.min.js"></script>
 <script src="jq/js/jquery.mobile-1.4.5.min.js"></script>
 
-<script type="text/javascript" charset="utf-8" src="phonegap.js"></script>
+
 
 <style>
 </style>
@@ -40,5 +40,10 @@ $(function(){
     </div>
     <div data-role="footer" id="pie" data-position="fixed"><h1>Phonegap</h1></div>
 </div>
+<script type="text/javascript" src="cordova.js"></script>
+<script type="text/javascript">
+    device.initialize();
+</script>
+
 </body>
 </html>

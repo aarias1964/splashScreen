@@ -8,7 +8,7 @@
 		SplashScreen
 	</description>
     <author email="alberto.ariasm@gmail.com" href="http://aarias.dho.com.ec">
-		Francisco Javier Arce Anguiano
+		Alberto Arias M
 	</author>
     <gap:plataform name="android" />
     <content src="index.html" />

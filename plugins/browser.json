@@ -9,6 +9,9 @@
     "installed_plugins": {
         "cordova-plugin-splashscreen": {
             "PACKAGE_NAME": "com.pacoarce.splashscreen"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "ec.com.dho.splashscreen"
         }
     },
     "dependent_plugins": {}

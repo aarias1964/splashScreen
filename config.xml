@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.pacoarce.splashscreen"
+        id        = "ec.com.dho.splashscreen"
         version   = "1.0.0">
 	<name>PG-SplashScreen</name>
 	<description>
 		SplashScreen
 	</description>
-	<author email="fj_arce@yahoo.com.mx" href="http://pacoarce.com">
+	<author email="alberto.ariasm@gmail.com" href="http://aarias.dho.com.ec">
 		Francisco Javier Arce Anguiano
 	</author>
 	<gap:plataform name="android" />
@@ -22,4 +22,5 @@
 	<splash src="splash.png" />
 
 	<plugin name="cordova-plugin-splashscreen" spec="~4.0.0" />
+    <plugin name="cordova-plugin-device" spec="~1.1.3" />
 </widget>

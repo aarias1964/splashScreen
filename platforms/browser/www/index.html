@@ -17,6 +17,14 @@
 $(function(){
 	document.addEventListener("deviceready", function(){
 		navigator.splashscreen.hide();
+        salida.innerHTML = 'PhoneGap (version ' +
+          device.cordova + ')<br />' + device.platform + ' ' +
+          'version: ' + device.version + '<br>'+
+          'modelo: ' + device.model + '<br>' +
+          'uuid: ' + device.uuid + '<br>' +
+          'Fabricante: ' + device.manufacturer + '<br>' +
+          'isVirtual: ' + device.isVirtual + '<br>' +
+          'Serie: ' + device.serial;
 	}, false);
 });
 </script>
@@ -27,8 +35,8 @@ $(function(){
 	<div data-role="header">
     <h1>SplashScreen</h1>
     </div>
-	<div data-role="content">
-       <h1>Bienvenid@ a PhoneGap</h1>
+    <div data-role="content">
+        <h2 id="salida"></h2>
     </div>
     <div data-role="footer" id="pie" data-position="fixed"><h1>Phonegap</h1></div>
 </div>
